@@ -1,0 +1,19 @@
+var data = [{
+        "firstName": "Ben",
+        "lastName": "Ofili",
+        "occupation": "Software Developer",
+        "phoneNumber": "08089999999"
+    },
+    {
+        "firstName": "Ruth",
+        "lastName": "Ofili",
+        "occupation": "Accountant",
+        "phoneNumber": "08019090999"
+    },
+    {
+        "firstName": "Chuka",
+        "lastName": "Okrika",
+        "occupation": "Data Scientist",
+        "phoneNumber": "08099098888"
+    }
+]
