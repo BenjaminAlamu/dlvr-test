@@ -24,7 +24,7 @@ function addButtons() {
     let button = document.getElementById("buttons");
     for (let i = 0; i < json_data.length; i += 10) {
         let val = i / 10 + 1;
-        button.innerHTML += `<button onclick='trimArray(${i})'>${val}</button>`
+        button.innerHTML += `<button class=button button${val} onclick='trimArray(${i})'>${val}</button>`
     }
 }
 
@@ -38,19 +38,19 @@ function trimArray(index) {
 function parentSort(value) {
 
     if (value === "firstName") {
-        data.sort(sortFirstName)
+        displayed_data.sort(sortFirstName)
     }
 
     if (value === "lastName") {
-        data.sort(sortLastName)
+        displayed_data.sort(sortLastName)
     }
 
     if (value === "occupation") {
-        data.sort(sortOccupation)
+        displayed_data.sort(sortOccupation)
     }
 
-    if (value === "phoneNumber") {
-        data.sort(sortNum)
+    if (value === "phone") {
+        displayed_data.sort(sortNum)
     }
 
 
@@ -88,6 +88,7 @@ function sortOccupation(a, b) {
 }
 
 function sortNum(a, b) {
+
     if (a.phoneNumber > b.phoneNumber) {
         return 1
     }

@@ -5,30 +5,43 @@
 <head>
   <title>JSON - HTML Converter</title>
   <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 </head>
 
 <body>
-  <h3>7 Tests Exercise 1</h3>
-  <p>Sort by</p>
-  <select onchange="parentSort(value)">
-    <option value="firstName">First Name</option>
-    <option value="lastName">Last Name</option>
-    <option value="occupation">Occupation</option>
-    <option value="phone">Phone Number</option>
-  </select>
-  <table id="">
-    <tr>
-      <th>Firstname</th>
-      <th>Lastname</th>
-      <th>Occupation</th>
-      <th>Phone Number</th>
-    </tr>
-  </table>
-  <table id="table">
+  <h3 class="head">7 Tests Exercise 1</h3>
+  <div class="container body">
 
-  </table>
-  <div id="buttons">
+    <div class="row">
+      <div class="col-md-8 offset-md-2 col-xs-12">
 
+        <p class="sort">Sort by</p>
+        <select class="sel custom-select" onchange="parentSort(value)">
+          <option value="firstName">First Name</option>
+          <option value="lastName">Last Name</option>
+          <option value="occupation">Occupation</option>
+          <option value="phone">Phone Number</option>
+        </select>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Occupation</th>
+              <th>Phone Number</th>
+            </tr>
+          </thead>
+          <tbody id="table">
+
+          </tbody>
+        </table>
+
+        <div id="buttons">
+
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 <script type="text/javascript" src="./assets/js/data.json"></script>

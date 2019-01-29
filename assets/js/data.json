@@ -70,6 +70,150 @@ var data = [{
         "occupation": "Business Strategist",
         "phoneNumber": "09067487322"
     },
+    {
+        "firstName": "Ben",
+        "lastName": "Ofili",
+        "occupation": "Software Developer",
+        "phoneNumber": "08089999999"
+    },
+    {
+        "firstName": "Ruth",
+        "lastName": "Ofili",
+        "occupation": "Accountant",
+        "phoneNumber": "08019090999"
+    },
+    {
+        "firstName": "Chuka",
+        "lastName": "Okrika",
+        "occupation": "Data Scientist",
+        "phoneNumber": "08099098888"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Alamu",
+        "occupation": "Designer",
+        "phoneNumber": "08012345432"
+    },
+    {
+        "firstName": "Seyike",
+        "lastName": "Sojirin",
+        "occupation": "UI/UX",
+        "phoneNumber": "09045678945"
+    },
+    {
+        "firstName": "Bolaji",
+        "lastName": "Micheal",
+        "occupation": "Data Scientist",
+        "phoneNumber": "09067443322"
+    },
+    {
+        "firstName": "Alamu",
+        "lastName": "Benjamin",
+        "occupation": "Software Developer",
+        "phoneNumber": "07056785467"
+    },
+    {
+        "firstName": "Toyosi",
+        "lastName": "Ande",
+        "occupation": "Enrepreneur",
+        "phoneNumber": "02089675432"
+    },
+    {
+        "firstName": "Timi",
+        "lastName": "Fasipe",
+        "occupation": "Deep Scientist",
+        "phoneNumber": "08098098888"
+    },
+    {
+        "firstName": "Dunjoye",
+        "lastName": "Omikunle",
+        "occupation": "Photographer",
+        "phoneNumber": "08012334432"
+    },
+    {
+        "firstName": "Wole",
+        "lastName": "Akande",
+        "occupation": "Sound Engineer",
+        "phoneNumber": "09089678945"
+    },
+    {
+        "firstName": "Tope",
+        "lastName": "Ajao",
+        "occupation": "Business Strategist",
+        "phoneNumber": "09067487322"
+    },
+    {
+        "firstName": "Ben",
+        "lastName": "Ofili",
+        "occupation": "Software Developer",
+        "phoneNumber": "08089999999"
+    },
+    {
+        "firstName": "Ruth",
+        "lastName": "Ofili",
+        "occupation": "Accountant",
+        "phoneNumber": "08019090999"
+    },
+    {
+        "firstName": "Chuka",
+        "lastName": "Okrika",
+        "occupation": "Data Scientist",
+        "phoneNumber": "08099098888"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Alamu",
+        "occupation": "Designer",
+        "phoneNumber": "08012345432"
+    },
+    {
+        "firstName": "Seyike",
+        "lastName": "Sojirin",
+        "occupation": "UI/UX",
+        "phoneNumber": "09045678945"
+    },
+    {
+        "firstName": "Bolaji",
+        "lastName": "Micheal",
+        "occupation": "Data Scientist",
+        "phoneNumber": "09067443322"
+    },
+    {
+        "firstName": "Alamu",
+        "lastName": "Benjamin",
+        "occupation": "Software Developer",
+        "phoneNumber": "07056785467"
+    },
+    {
+        "firstName": "Toyosi",
+        "lastName": "Ande",
+        "occupation": "Enrepreneur",
+        "phoneNumber": "02089675432"
+    },
+    {
+        "firstName": "Timi",
+        "lastName": "Fasipe",
+        "occupation": "Deep Scientist",
+        "phoneNumber": "08098098888"
+    },
+    {
+        "firstName": "Dunjoye",
+        "lastName": "Omikunle",
+        "occupation": "Photographer",
+        "phoneNumber": "08012334432"
+    },
+    {
+        "firstName": "Wole",
+        "lastName": "Akande",
+        "occupation": "Sound Engineer",
+        "phoneNumber": "09089678945"
+    },
+    {
+        "firstName": "Tope",
+        "lastName": "Ajao",
+        "occupation": "Business Strategist",
+        "phoneNumber": "09067487322"
+    },
 
 
 ]

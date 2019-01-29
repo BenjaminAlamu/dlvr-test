@@ -1,0 +1,32 @@
+body {
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+.body {
+    margin: auto;
+}
+
+.head {
+    background-color: #212121;
+    color: white;
+    padding: 20px;
+}
+
+#buttons {
+    margin: 10px auto 50px;
+}
+
+.sort {
+    margin-bottom: 5px;
+}
+
+.sel {
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+
+.button {
+    background-color: #212121;
+    color: white;
+    outline: 0;
+}
