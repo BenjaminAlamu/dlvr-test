@@ -21,18 +21,63 @@ function printData() {
 
 
 
-function myFunction(value) {
-    console.log(value)
-    data.sort(sortFirstName)
+function parentSort(value) {
+
+    if (value === "firstName") {
+        data.sort(sortFirstName)
+    }
+
+    if (value === "lastName") {
+        data.sort(sortLastName)
+    }
+
+    if (value === "occupation") {
+        data.sort(sortOccupation)
+    }
+
+    if (value === "phoneNumber") {
+        data.sort(sortNum)
+    }
+
+
     printData()
 }
 
 function sortFirstName(a, b) {
-    console.log("fbfjeb")
     if (a.firstName > b.firstName) {
         return 1
     }
     if (a.firstName < b.firstName) {
+        return -1
+    }
+    return 0
+}
+
+function sortLastName(a, b) {
+    if (a.lastName > b.lastName) {
+        return 1
+    }
+    if (a.lastName < b.lastName) {
+        return -1
+    }
+    return 0
+}
+
+function sortOccupation(a, b) {
+    if (a.occupation > b.occupation) {
+        return 1
+    }
+    if (a.occupation < b.occupation) {
+        return -1
+    }
+    return 0
+}
+
+function sortNum(a, b) {
+    if (a.phoneNumber > b.phoneNumber) {
+        return 1
+    }
+    if (a.phoneNumber < b.phoneNumber) {
         return -1
     }
     return 0
